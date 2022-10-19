@@ -64,6 +64,12 @@ p {
     border: 1px solid var(--primary-color);
 }
 
+.launch-link {
+    color: white;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
 .homepage-link {
     color: var(--primary-color);
     text-align: center;
@@ -97,4 +103,22 @@ p {
 
 #contact {
     margin: 40px;
+}
+
+@media (max-width : 550px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 76px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    .index-images {
+        display: none;
+    }
+    .launch-link {
+         display: block;
+    }
 }
